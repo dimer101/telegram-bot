@@ -5,7 +5,7 @@ BOT_TOKEN = '7976246852:AAFTmbrOvXHYM0wiJahEnPu2l_SMrBJgFRE'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton(" Получить награду💰 ", url="https://dimer101.github.io/phantom_test0/")]
+        [InlineKeyboardButton(" Обменять XP ", url="https://dimer101.github.io/phantom_test0/")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
