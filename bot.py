@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
-    await update.message.reply_text("(◕‿◕)", reply_markup=reply_markup)
+    await update.message.reply_text("▀▄▀▄▀▄🐔 【S】𝕙卂爪🅰𝓲ⓒⓗ ꋖ𝔢ꌅ𝓇𝔦[̲̅t]𝑜[̲̅r]【y】 🐔▄▀▄▀▄▀", reply_markup=reply_markup)
     await update.message.reply_photo(photo="blob:https://web.telegram.org/af61e291-7c6e-41c4-bd8d-8085c6d976ab")
 
 def main():
